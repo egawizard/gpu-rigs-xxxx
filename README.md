@@ -1,4 +1,6 @@
-# GPU Mining Rigs — Instant Reveal Server
+# RTX RIG Machine — Instant Reveal Server
+
+OpenSea collection: https://opensea.io/collection/rtxrigmachine/overview
 
 Preconfigured for:
 

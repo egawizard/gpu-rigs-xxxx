@@ -1,5 +1,5 @@
 const {
-  CONTRACT, CHAIN_ID, MAX_SUPPLY, MAPPING_SHA256, totalSupply, sendJson
+  CONTRACT, CHAIN_ID, MAX_SUPPLY, COLLECTION_NAME, MAPPING_SHA256, totalSupply, sendJson
 } = require("../lib/reveal");
 
 module.exports = async function handler(req, res) {
@@ -10,6 +10,7 @@ module.exports = async function handler(req, res) {
       chainId: CHAIN_ID,
       contract: CONTRACT,
       maxSupply: MAX_SUPPLY,
+      collection: COLLECTION_NAME,
       totalSupply: supply,
       revealMode: "on-mint",
       pollCacheSeconds: 5,
@@ -21,6 +22,7 @@ module.exports = async function handler(req, res) {
       chainId: CHAIN_ID,
       contract: CONTRACT,
       maxSupply: MAX_SUPPLY,
+      collection: COLLECTION_NAME,
       error: String(err && err.message ? err.message : err)
     }, "rpc-unavailable", "no-store");
   }

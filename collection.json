@@ -1,0 +1,10 @@
+{
+  "name": "RTX RIG Machine",
+  "opensea_slug": "rtxrigmachine",
+  "opensea_url": "https://opensea.io/collection/rtxrigmachine/overview",
+  "supply": 6000,
+  "chain": "Robinhood Chain Mainnet",
+  "chain_id": 4663,
+  "contract": "0xc9c09d9533e12ae769e2e6d86118f735c3a1ed70",
+  "reveal_mode": "instant/on-mint"
+}

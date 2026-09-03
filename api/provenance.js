@@ -3,6 +3,9 @@ module.exports = function handler(req, res) {
   res.setHeader("content-type", "application/json; charset=utf-8");
   res.setHeader("cache-control", "public, max-age=300");
   res.end(JSON.stringify({
+    collection: "RTX RIG Machine",
+    openseaSlug: "rtxrigmachine",
+    openseaUrl: "https://opensea.io/collection/rtxrigmachine/overview",
     contract: "0xc9c09d9533e12ae769e2e6d86118f735c3a1ed70",
     chainId: 4663,
     maxSupply: 6000,
