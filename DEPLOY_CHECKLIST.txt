@@ -1,0 +1,22 @@
+INSTANT REVEAL CHECKLIST
+
+[ ] Deploy folder to Vercel privately
+[ ] Set Vercel env: RPC_URL=https://rpc.mainnet.chain.robinhood.com
+[ ] Visit /api/health -> ok
+[ ] Visit /api/status -> ok:true and correct contract
+[ ] Copy final Vercel production domain
+[ ] Owner wallet calls setBaseURI("https://DOMAIN/api/")
+[ ] IMPORTANT: trailing slash included
+[ ] Test one minted token endpoint
+[ ] Test one unminted token endpoint
+[ ] Only then open public mint
+
+Contract:
+0xc9c09d9533e12ae769e2e6d86118f735c3a1ed70
+
+Robinhood Chain:
+Chain ID 4663
+RPC https://rpc.mainnet.chain.robinhood.com
+
+Mapping SHA-256:
+b8db7851b5033cd1a59378af3ba4a5951a348abbd809f5a7602526074e56f684

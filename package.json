@@ -1,0 +1,12 @@
+{
+  "name": "gpu-rigs-instant-reveal",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "check": "node scripts/check-data.js"
+  }
+}
